@@ -43,7 +43,7 @@ drag.addEventListener('drag', function () {
 //Drop
 const dragEnd = document.querySelector('footer')
 dragEnd.addEventListener('dragend', function () {
-    console.log("You found the footer drag end badge!")
+    console.log("You found the footer drop badge!")
 })
 
 //MouseOut Events
